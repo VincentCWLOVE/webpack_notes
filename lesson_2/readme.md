@@ -42,3 +42,8 @@ var webpackConfig = {
 
 ### [ExtractTextWebpackPlugin](https://webpack.docschina.org/plugins/extract-text-webpack-plugin/)
 因为 `style-loader`会将`css-loader`解析的结果转成JS代码，运行时动态的插入 `style`标签让CSS生效，既CSS代码会转变成JS和index.js一起打包，我们需要将CSS从JS中分离出来
+
+### `webpack-dev-start`
+```bash
+npm install webpack-dev-server --save-dev
+```

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack -d --watch",
-    "prod": "webpack -p"
+    "prod": "webpack -p",
+    "start:dev":"webpack-dev-server"
   },
   "keywords": [
     "webpack"
@@ -28,6 +29,7 @@
     "postcss-px2rem": "^0.3.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.2"
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
   }
 }
